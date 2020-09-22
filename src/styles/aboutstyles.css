@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+
+.atitle {
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Playfair Display', serif;
+  color: #383838;
+  font-size: 40px;
+  line-height: 1.4;
+  letter-spacing: 0px;
+}
+.divider > hr {
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: #cba674;
+  max-width: 100%;
+  width: 75px;
+}
+
+.imageborder::before {
+  content: '';
+  background-color: transparent;
+  width: 85%;
+  height: 100%;
+  border: 2px solid #cba674;
+  z-index: -1;
+  left: 10px;
+  bottom: -20px;
+  position: absolute;
+}
+.font-Merriweather {
+  font-family: 'Merriweather', serif;
+}
+.fa-quote-right {
+  color: #cba674;
+  font-size: 40px;
+}
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 768px) {
+  .imageborder::before {
+    width: 60% !important;
+    left: 175px !important;
+  }
+}
+@media only screen and (max-device-width: 599px) {
+  .imageborder::before {
+    display: none !important;
+  }
+}
+@media only screen and (min-device-width: 769px) and (max-device-width: 992px) {
+  .imageborder::before {
+    width: 74% !important;
+    left: 20px !important;
+  }
+  .imageborder > img {
+    width: 100% !important;
+  }
+}
+@media only screen and (min-device-width: 993px) and (max-device-width: 1200px) {
+  .imageborder::before {
+    width: 80% !important;
+    left: 20px !important;
+  }
+  .imageborder > img {
+    width: 100% !important;
+  }
+}
