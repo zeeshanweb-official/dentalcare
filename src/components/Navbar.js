@@ -8,7 +8,7 @@ export default class Navbar extends Component {
                     <div className="row">
                         <div className="col-md-11 mx-auto px-4 py-2">
                             <nav className="navbar navbar-expand-lg navbar-light ">
-                                <a className="navbar-brand" href="#">
+                                <a className="navbar-brand" href="/">
                                     <img src={"https://www.opencare.com/images/brand/opencare-logo-cross-and-text-charcoal.svg"} alt="logo" />
                                 </a>
                                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
